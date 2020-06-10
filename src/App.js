@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import BookShelves from "./components/BookShelves";
 import Search from "./components/Search";
+import ErrorPage404 from "./components/ErrorPage404";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={BookShelves} />
           <Route path="/search" component={Search} />
+          <Route component={ErrorPage404} />
         </Switch>
       </div>
     );
