@@ -1,4 +1,4 @@
-## Book Tracking
+## Digital Bookshelf
 
 This app allows users to create a digital bookshelf that allows them to select and categorize books.
 
